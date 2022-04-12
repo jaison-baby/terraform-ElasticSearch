@@ -15,11 +15,11 @@ variable "AWS_REGION" {
 variable "instance_accesskey" {
   description = "Value of the Name tag for the EC2 instance"
   type        = string
-  default     = "AKIA5MDMMSR7MDAMGHNY"
+  default     = ""
 }
 variable "instance_secretkey" {
   description = "Value of the Name tag for the EC2 instance"
   type        = string
-  default     = "zull3qC3xDrA/E8C/z/itehJfPY2G/B0S+FpJamb"
+  default     = ""
 }
 
